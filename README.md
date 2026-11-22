@@ -6,7 +6,8 @@ The tutorial covers class means and variance, within-class scatter, geometric pr
 
 ## Repository contents
 
-- `LDA_Tutorial.ipynb` — the complete tutorial with saved outputs.
+- `LDA_Tutorial.ipynb` — the single tutorial notebook with saved outputs.
+- `lda_plotting.py` — plotting helpers imported by the notebook so its mathematical code stays easy to read.
 - `pyproject.toml` — Python requirements and package-index configuration.
 - `uv.lock` — locked dependency versions for reproducible installation.
 
