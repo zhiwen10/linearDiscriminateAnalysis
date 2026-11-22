@@ -1,0 +1,16 @@
+[project]
+name = "lda-tutorial"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
